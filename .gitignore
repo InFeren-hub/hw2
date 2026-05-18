@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local datasets and generated outputs
+data/
+runs/
+swanlog/
+
+# Large model artifacts;
+weights/*.pt
+weights/*.pth
+*.pt
+*.pth
+
+# OS/editor noise
+.DS_Store
+
+# Wandb local logs 
+wandb/
+
+# Weight CSVs 
+weights/*.csv
+
+
+/report/
